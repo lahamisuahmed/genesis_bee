@@ -17,12 +17,10 @@ class CreateHistoriesTables extends Migration
             $table->increments('id');
             $table->integer('to')->unsigned()->index();
             $table->integer('from')->unsigned()->index();
-            $table->integer('item_id')->unsigned()->index();
             $table->integer('reciever_id')->unsigned()->index();
             $table->integer('dipatcher_id')->unsigned()->index();
             $table->enum('status', ['dispatched', 'transit', 'delivered', 'undelivered']);
             $table->foreign('to')->references('id')->on('locations')->onDelete('cascade')->onUpdate('cascade');
-            $table->foreign('item_id')->references('id')->on('items')->onDelete('cascade')->onUpdate('cascade');
             $table->foreign('from')->references('id')->on('locations')->onDelete('cascade')->onUpdate('cascade');
             $table->foreign('reciever_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
             $table->foreign('dispatcher_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
