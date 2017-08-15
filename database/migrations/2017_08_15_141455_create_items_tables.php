@@ -16,8 +16,6 @@ class CreateItemsTables extends Migration
         Schema::create('items', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->integer('location_id')->unsigned()->index();
-            $table->foreign('location_id')->references('id')->on('locations')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
         });
     }
