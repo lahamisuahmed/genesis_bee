@@ -15,11 +15,7 @@ class CreateHistoriesTables extends Migration
     {
         Schema::create('histories', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('reciever_id')->unsigned()->index();
-            $table->integer('dipatcher_id')->unsigned()->index();
             $table->enum('status', ['dispatched', 'transit', 'delivered', 'undelivered']);
-            $table->foreign('reciever_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
-            $table->foreign('dispatcher_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
         });
     }
