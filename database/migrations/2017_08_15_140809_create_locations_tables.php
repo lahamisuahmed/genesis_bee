@@ -17,8 +17,7 @@ class CreateLocationsTables extends Migration
             $table->increments('id');
             $table->string('name');
             $table->text('description');
-            $table->integer('organization_id')->unsigned()->index();
-            $table->foreign('organization_id')->references('id')->on('organizations')->onDelete('cascade')->onUpdate('cascade');
+
             $table->timestamps();
         });
     }
