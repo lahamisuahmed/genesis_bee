@@ -1,95 +1,74 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @if (Auth::check())
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ url('/login') }}">Login</a>
-                        <a href="{{ url('/register') }}">Register</a>
-                    @endif
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
+<!DOCTYPE html>
+<html lang="en">
+  @include('contents.header')
+  <body>
+    <div class="container-fluid">
+        @include('contents.nav')
+        
+        <div class="carousel slide" data-ride="carousel"  data-interval="5000" id="myCarousel" style="margin-top: 50px">
+            
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+                <li data-slide-to="1" data-target="#myCarousel"></li>
+                <li data-slide-to="2" data-target="#myCarousel"></li>
+            </ol>
+        
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active" id="slide1">
+                    <img src="{{asset('img/8.jpg')}}" class="img-responsive">
+                    <!-- <div class="carousel-caption">
+                        <h4>first carousel slide</h4>
+                        <p>In lahm technologies we teach you how to build your next web application</p>
+                    </div> --><!-- end carousel-caption-->
+                </div><!-- end item -->
+                
+                <div class="item" id="slide2">
+                    <img src="{{asset('img/9.jpg')}}" class="img-responsive">
+                    <!-- <div class="carousel-caption">
+                        <h4>second carousel slide</h4>
+                        <p>In lahm technologies we do almost everything in the IT world</p>
+                    </div> --><!-- end carousel-caption-->
+                </div><!-- end item -->
+                
+                <div class="item" id="slide3">
+                    <img src="{{asset('img/7.jpg')}}" class="img-responsive">
+                    <!-- <div class="carousel-caption">
+                        <h4>third carousel slide</h4>
+                        <p>Learn everything you need from us</p>
+                    </div> --><!-- end carousel-caption-->
+                </div><!-- end item -->
+            </div><!-- carousel-inner -->
+            
+            <!-- Controls -->
+            <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+            <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+        
+        </div><!-- end myCarousel -->
+        
+        <!-- <div class="jumbotron">
+            <h1>My Family</h1>
+            <p>
+            praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias 
+            excepturi sint <br>
+            Voluptatem accusantium doloremque laudantium sprea totam rem aperiam
+            </p>
         </div>
-    </body>
+        
+        <div class="container">
+            <div class="col-md-6" >
+                <img src="img/10.jpg" alt="" class="img-responsive" />
+            </div>
+            <div class="col-md-6" >
+                <img src="img/11.jpg" alt="" class="img-responsive" />
+            </div>
+        </div> -->
+
+        
+    </div>
+
+    @include('contents.footer')
+    
+</body>
 </html>

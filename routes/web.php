@@ -11,6 +11,18 @@
 |
 */
 
-Route::get('/', function () {
+Route::name('welcome')->get('/', function () {
     return view('welcome');
+});
+Route::name('about')->get('/about', function () {
+    return view('about');
+});
+Route::name('event')->get('/event', function () {
+    return view('event');
+});
+Route::name('gallery')->get('/gallery', function () {
+    return view('gallery');
+});
+Route::name('contact')->get('/contact', function () {
+    return view('contact');
 });
