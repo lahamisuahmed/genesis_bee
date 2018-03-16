@@ -32,3 +32,7 @@
     <script type="text/javascript" src="{{ asset('vendor/ilightbox/js/jquery.requestAnimationFrame.js')}}"></script><!-- iLightbox -->
     <script type="text/javascript" src="{{ asset('vendor/ilightbox/js/jquery.mousewheel.js')}}"></script><!-- iLightbox -->
     <script type="text/javascript" src="{{ asset('vendor/ilightbox/js/ilightbox.packed.js')}}"></script><!-- iLightbox -->
+    <script>
+        // iLightbox Call
+        $('.ilightbox-gallery a').iLightBox({skin:'metro-white'});
+    </script>
