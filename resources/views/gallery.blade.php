@@ -16,7 +16,7 @@
     		<ul class="grid-holder col2">
             	<li class="grid-item">
                 	<a href="wedding_gallery">
-                    	<img src="{{ asset('images/pic14.jpg') }}" alt="">
+                    	<img src="{{ asset('images/nslide1.jpg') }}" alt="">
                     	<span class="grid-hover">
                         	<span class="grid-hover-central">
                             <span class="grid-hover-inner">
@@ -39,7 +39,7 @@
               	</li>
             	<li class="grid-item">
                 	<a href="gallery-grid-ilightbox.html">
-                    	<img src="{{ asset('images/pic12.jpg') }}" alt="">
+                    	<img src="{{ asset('images/nslide2.jpg') }}" alt="">
                     	<span class="grid-hover">
                         	<span class="grid-hover-central">
                             <span class="grid-hover-inner">
@@ -62,7 +62,7 @@
               	</li>
             	<li class="grid-item">
                 	<a href="gallery-grid-ilightbox.html">
-                    	<img src="{{ asset('images/pic13.jpg') }}" alt="">
+                    	<img src="{{ asset('images/nslide3.jpg') }}" alt="">
                     	<span class="grid-hover">
                         	<span class="grid-hover-central">
                             <span class="grid-hover-inner">
@@ -85,7 +85,7 @@
               	</li>
             	<li class="grid-item">
                 	<a href="gallery-grid-ilightbox.html">
-                    	<img src="{{ asset('images/pic16.jpg') }}" alt="">
+                    	<img src="{{ asset('images/nslide4.jpg') }}" alt="">
                     	<span class="grid-hover">
                         	<span class="grid-hover-central">
                             <span class="grid-hover-inner">
@@ -108,7 +108,7 @@
               	</li>
             	<li class="grid-item">
                 	<a href="gallery-grid-ilightbox.html">
-                    	<img src="{{ asset('images/pic2.jpg') }}" alt="">
+                    	<img src="{{ asset('images/nslide5.jpg') }}" alt="">
                     	<span class="grid-hover">
                         	<span class="grid-hover-central">
                             <span class="grid-hover-inner">
@@ -131,7 +131,7 @@
               	</li>
             	<li class="grid-item">
                 	<a href="gallery-grid-ilightbox.html">
-                    	<img src="{{ asset('images/pic10.jpg') }}" alt="">
+                    	<img src="{{ asset('images/nslide6.jpg') }}" alt="">
                     	<span class="grid-hover">
                         	<span class="grid-hover-central">
                             <span class="grid-hover-inner">
@@ -154,7 +154,7 @@
               	</li>
             	<li class="grid-item">
                 	<a href="gallery-grid-ilightbox.html">
-                    	<img src="{{ asset('images/pic20.jpg') }}" alt="">
+                    	<img src="{{ asset('images/nslide7.jpg') }}" alt="">
                     	<span class="grid-hover">
                         	<span class="grid-hover-central">
                             <span class="grid-hover-inner">
@@ -175,190 +175,7 @@
                      	</span>
                  	</a>
               	</li>
-            	<li class="grid-item">
-                	<a href="gallery-grid-ilightbox.html">
-                    	<img src="{{ asset('images/pic4.jpg') }}" alt="">
-                    	<span class="grid-hover">
-                        	<span class="grid-hover-central">
-                            <span class="grid-hover-inner">
-                            		 
-                            		<strong>Cooking</strong>
-                            		<span class="cat">in Portraits</span>
-                         		</span>
-                        	</span>
-                     	</span>
-                     	<span class="action-port">
-                        	<span class="gallery-permalink pull-right">view gallery <i class="fa fa-long-arrow-right"></i></span>
-                        	<span class="gallery-likes">
-                            	<i class="fa fa-heart"></i> 20
-                        	</span>
-                        	<span class="gallery-pictures">
-                            	<i class="fa fa-photo"></i> 9
-                        	</span>
-                     	</span>
-                 	</a>
-              	</li>
-            	<li class="grid-item">
-                	<a href="gallery-grid-ilightbox.html">
-                    	<img src="{{ asset('images/pic15.jpg') }}" alt="">
-                    	<span class="grid-hover">
-                        	<span class="grid-hover-central">
-                            <span class="grid-hover-inner">
-                            		 
-                            		<strong>Portrait</strong>
-                            		<span class="cat">in Portraits</span>
-                         		</span>
-                        	</span>
-                     	</span>
-                     	<span class="action-port">
-                        	<span class="gallery-permalink pull-right">view gallery <i class="fa fa-long-arrow-right"></i></span>
-                        	<span class="gallery-likes">
-                            	<i class="fa fa-heart"></i> 20
-                        	</span>
-                        	<span class="gallery-pictures">
-                            	<i class="fa fa-photo"></i> 9
-                        	</span>
-                     	</span>
-                 	</a>
-              	</li>
-            	<li class="grid-item">
-                	<a href="gallery-grid-ilightbox.html">
-                    	<img src="{{ asset('images/pic19.jpg') }}" alt="">
-                    	<span class="grid-hover">
-                        	<span class="grid-hover-central">
-                            <span class="grid-hover-inner">
-                            		 
-                            		<strong>Landscape</strong>
-                            		<span class="cat">in Portraits</span>
-                         		</span>
-                        	</span>
-                     	</span>
-                     	<span class="action-port">
-                        	<span class="gallery-permalink pull-right">view gallery <i class="fa fa-long-arrow-right"></i></span>
-                        	<span class="gallery-likes">
-                            	<i class="fa fa-heart"></i> 20
-                        	</span>
-                        	<span class="gallery-pictures">
-                            	<i class="fa fa-photo"></i> 9
-                        	</span>
-                     	</span>
-                 	</a>
-              	</li>
-            	<li class="grid-item">
-                	<a href="gallery-grid-ilightbox.html">
-                    	<img src="{{ asset('images/pic18.jpg') }}" alt="">
-                    	<span class="grid-hover">
-                        	<span class="grid-hover-central">
-                            <span class="grid-hover-inner">
-                            		 
-                            		<strong>New Year</strong>
-                            		<span class="cat">view our New Year shots</span>
-                         		</span>
-                        	</span>
-                     	</span>
-                     	<span class="action-port">
-                        	<span class="gallery-permalink pull-right">view gallery <i class="fa fa-long-arrow-right"></i></span>
-                        	<span class="gallery-likes">
-                            	<i class="fa fa-heart"></i> 20
-                        	</span>
-                        	<span class="gallery-pictures">
-                            	<i class="fa fa-photo"></i> 9
-                        	</span>
-                     	</span>
-                 	</a>
-              	</li>
-            	<li class="grid-item">
-                	<a href="gallery-grid-ilightbox.html">
-                    	<img src="{{ asset('images/pic7.jpg') }}" alt="">
-                    	<span class="grid-hover">
-                        	<span class="grid-hover-central">
-                            <span class="grid-hover-inner">
-                            		 
-                            		<strong>Eid</strong>
-                            		<span class="cat">View our Eid shots</span>
-                         		</span>
-                        	</span>
-                     	</span>
-                     	<span class="action-port">
-                        	<span class="gallery-permalink pull-right">view gallery <i class="fa fa-long-arrow-right"></i></span>
-                        	<span class="gallery-likes">
-                            	<i class="fa fa-heart"></i> 20
-                        	</span>
-                        	<span class="gallery-pictures">
-                            	<i class="fa fa-photo"></i> 9
-                        	</span>
-                     	</span>
-                 	</a>
-              	</li>
-            	<li class="grid-item">
-                	<a href="gallery-grid-ilightbox.html">
-                    	<img src="{{ asset('images/pic8.jpg') }}" alt="">
-                    	<span class="grid-hover">
-                        	<span class="grid-hover-central">
-                            <span class="grid-hover-inner">
-                            		 
-                            		<strong>Christmas</strong>
-                            		<span class="cat">view our chritmas shots</span>
-                         		</span>
-                        	</span>
-                     	</span>
-                     	<span class="action-port">
-                        	<span class="gallery-permalink pull-right">view gallery <i class="fa fa-long-arrow-right"></i></span>
-                        	<span class="gallery-likes">
-                            	<i class="fa fa-heart"></i> 20
-                        	</span>
-                        	<span class="gallery-pictures">
-                            	<i class="fa fa-photo"></i> 9
-                        	</span>
-                     	</span>
-                 	</a>
-              	</li>
-            	<li class="grid-item">
-                	<a href="gallery-grid-ilightbox.html">
-                    	<img src="{{ asset('images/pic9.jpg') }}" alt="">
-                    	<span class="grid-hover">
-                        	<span class="grid-hover-central">
-                            <span class="grid-hover-inner">
-                            		 
-                            		<strong>Gents</strong>
-                            		<span class="cat">view our gents gallery</span>
-                         		</span>
-                        	</span>
-                     	</span>
-                     	<span class="action-port">
-                        	<span class="gallery-permalink pull-right">view gallery <i class="fa fa-long-arrow-right"></i></span>
-                        	<span class="gallery-likes">
-                            	<i class="fa fa-heart"></i> 20
-                        	</span>
-                        	<span class="gallery-pictures">
-                            	<i class="fa fa-photo"></i> 9
-                        	</span>
-                     	</span>
-                 	</a>
-              	</li>
-            	<li class="grid-item">
-                	<a href="gallery-grid-ilightbox.html">
-                    	<img src="{{ asset('images/pic11.jpg') }}" alt="">
-                    	<span class="grid-hover">
-                        	<span class="grid-hover-central">
-                            <span class="grid-hover-inner">
-                            		 
-                            		<strong>Ladies</strong>
-                            		<span class="cat">view our ladies gallery</span>
-                         		</span>
-                        	</span>
-                     	</span>
-                     	<span class="action-port">
-                        	<span class="gallery-permalink pull-right">view gallery <i class="fa fa-long-arrow-right"></i></span>
-                        	<span class="gallery-likes">
-                            	<i class="fa fa-heart"></i> 20
-                        	</span>
-                        	<span class="gallery-pictures">
-                            	<i class="fa fa-photo"></i> 9
-                        	</span>
-                     	</span>
-                 	</a>
-              	</li>
+            	
           	</ul>
     </div>
   </div>

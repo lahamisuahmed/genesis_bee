@@ -92,7 +92,7 @@
                             data-start="2000"
                             data-easing="Back.easeInOut"
                             data-endspeed="300">
-                            <a href="gallery-masonry.html" class="btn btn-lg btn-default">See Galleries</a>
+                            <a href="{{route('gallery')}}" class="btn btn-lg btn-default">See Galleries</a>
                         </div>
                     </li>
                     <!-- SLIDE  -->
@@ -172,7 +172,7 @@
                             data-start="2000"
                             data-easing="Back.easeInOut"
                             data-endspeed="300">
-                            <a href="gallery-masonry.html" class="btn btn-lg btn-default">See Galleries</a>
+                            <a href="{{route('gallery')}}" class="btn btn-lg btn-default">See Galleries</a>
                         </div>
                     </li>
                     <!-- SLIDE  -->

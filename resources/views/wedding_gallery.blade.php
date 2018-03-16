@@ -55,78 +55,73 @@
         </div>
         <ul class="grid-holder col2 ilightbox-gallery">
             <li class="grid-item format-image">
-                <a href="images/pic5.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/pic5.jpg" alt="">
+                <a href="images/nslide1.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
+                    <img src="images/nslide1.jpg" alt="">
                 </a>
             </li>
             <li class="grid-item format-image">
-                <a href="images/pic6.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/pic6.jpg" alt="">
+                <a href="images/nslide2.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
+                    <img src="images/nslide2.jpg" alt="">
                 </a>
             </li>
             <li class="grid-item format-image">
-                <a href="images/pic7.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/pic7.jpg" alt="">
+                <a href="images/nslide3.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
+                    <img src="images/nslide3.jpg" alt="">
                 </a>
             </li>
             <li class="grid-item format-image">
-                <a href="images/pic8.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/pic8.jpg" alt="">
+                <a href="images/nslide4.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
+                    <img src="images/nslide4.jpg" alt="">
                 </a>
             </li>
             <li class="grid-item format-image">
-                <a href="images/pic9.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/pic9.jpg" alt="">
+                <a href="images/nslide5.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
+                    <img src="images/nslide5.jpg" alt="">
                 </a>
             </li>
             <li class="grid-item format-image">
-                <a href="images/pic10.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/pic10.jpg" alt="">
+                <a href="images/nslide6.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
+                    <img src="images/nslide6.jpg" alt="">
                 </a>
             </li>
             <li class="grid-item format-image">
-                <a href="images/pic11.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/pic11.jpg" alt="">
+                <a href="images/nslide7.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
+                    <img src="images/nslide7.jpg" alt="">
                 </a>
             </li>
             <li class="grid-item format-image">
-                <a href="images/pic12.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/pic12.jpg" alt="">
+                <a href="images/nslide1.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
+                    <img src="images/nslide1.jpg" alt="">
                 </a>
             </li>
             <li class="grid-item format-image">
-                <a href="images/pic37.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/pic37.jpg" alt="">
+                <a href="images/nslide2.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
+                    <img src="images/nslide2.jpg" alt="">
                 </a>
             </li>
             <li class="grid-item format-image">
-                <a href="images/pic38.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/pic38.jpg" alt="">
+                <a href="images/nslide3.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
+                    <img src="images/nslide3.jpg" alt="">
                 </a>
             </li>
             <li class="grid-item format-image">
-                <a href="images/pic35.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/pic35.jpg" alt="">
+                <a href="images/nslide4.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
+                    <img src="images/nslide4.jpg" alt="">
                 </a>
             </li>
             <li class="grid-item format-image">
-                <a href="images/pic13.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/pic13.jpg" alt="">
+                <a href="images/nslide5.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
+                    <img src="images/nslide5.jpg" alt="">
                 </a>
             </li>
             <li class="grid-item format-image">
-                <a href="images/pic14.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/pic14.jpg" alt="">
+                <a href="images/nslide6.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
+                    <img src="images/nslide6.jpg" alt="">
                 </a>
             </li>
             <li class="grid-item format-image">
-                <a href="images/pic36.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/pic36.jpg" alt="">
-                </a>
-            </li>
-            <li class="grid-item format-image">
-                <a href="images/pic15.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/pic15.jpg" alt="">
+                <a href="images/nslide7.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
+                    <img src="images/nslide7.jpg" alt="">
                 </a>
             </li>
         </ul>
