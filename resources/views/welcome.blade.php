@@ -1,74 +1,299 @@
-<!DOCTYPE html>
-<html lang="en">
-  @include('contents.header')
-  <body>
-    <div class="container-fluid">
-        @include('contents.nav')
-        
-        <div class="carousel slide" data-ride="carousel"  data-interval="5000" id="myCarousel" style="margin-top: 50px">
-            
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
-                <li data-slide-to="1" data-target="#myCarousel"></li>
-                <li data-slide-to="2" data-target="#myCarousel"></li>
-            </ol>
-        
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active" id="slide1">
-                    <img src="{{asset('img/8.jpg')}}" class="img-responsive">
-                    <!-- <div class="carousel-caption">
-                        <h4>first carousel slide</h4>
-                        <p>In lahm technologies we teach you how to build your next web application</p>
-                    </div> --><!-- end carousel-caption-->
-                </div><!-- end item -->
-                
-                <div class="item" id="slide2">
-                    <img src="{{asset('img/9.jpg')}}" class="img-responsive">
-                    <!-- <div class="carousel-caption">
-                        <h4>second carousel slide</h4>
-                        <p>In lahm technologies we do almost everything in the IT world</p>
-                    </div> --><!-- end carousel-caption-->
-                </div><!-- end item -->
-                
-                <div class="item" id="slide3">
-                    <img src="{{asset('img/7.jpg')}}" class="img-responsive">
-                    <!-- <div class="carousel-caption">
-                        <h4>third carousel slide</h4>
-                        <p>Learn everything you need from us</p>
-                    </div> --><!-- end carousel-caption-->
-                </div><!-- end item -->
-            </div><!-- carousel-inner -->
-            
-            <!-- Controls -->
-            <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
-            <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
-        
-        </div><!-- end myCarousel -->
-        
-        <!-- <div class="jumbotron">
-            <h1>My Family</h1>
-            <p>
-            praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias 
-            excepturi sint <br>
-            Voluptatem accusantium doloremque laudantium sprea totam rem aperiam
-            </p>
-        </div>
-        
-        <div class="container">
-            <div class="col-md-6" >
-                <img src="img/10.jpg" alt="" class="img-responsive" />
-            </div>
-            <div class="col-md-6" >
-                <img src="img/11.jpg" alt="" class="img-responsive" />
-            </div>
-        </div> -->
+<!DOCTYPE HTML>
+<html class="no-js">
+    @include('contents.header')
 
-        
-    </div>
+    <body class="fs">
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+    <![endif]-->
+    <div class="body"> 
+      @include('contents.nav')
+      <div class="clearfix"></div>
+      <!-- Start Content -->
+      <div class="main" role="main">
+          <div class="slider-rev-cont">
+              <div class="tp-banner-container">
+                <div class="tp-banner-full">
+                  <ul>
+                    <!-- SLIDE  -->
+                    <li data-delay="5000" data-masterspeed="600" data-slotamount="7" data-transition="fade"> 
+                      <!-- MAIN IMAGE --> 
+                      <img src="images/slide1.jpg" alt=""> 
+                      
+                      <!-- LAYER NR. 1 -->
+                      <div class="tp-caption small_light_white fade tp-resizeme"
+                          data-x="right"
+                            data-hoffset="-20"
+                          data-y="bottom" 
+                          data-speed="1000"
+                          data-start="300"
+                          data-easing="Power3.easeInOut"
+                          data-endspeed="300"
+                          style="z-index: 5">&copy; Genesis & Bee</div>
+                      <!-- LAYER NR. 2 -->
+                        <div class="tp-caption sfr whiter tp-resizeme"
+                            data-x="left"
+                            data-hoffset="25"
+                            data-y="center"
+                            data-voffset="-100"
+                            data-speed="1000"
+                            data-start="500"
+                            data-easing="Back.easeInOut"
+                            data-endspeed="300">
+                            <h4>Awesome</h4>
+                        </div>
+                      <!-- LAYER NR. 3 -->
+                        <div class="tp-caption sfr whiter tp-resizeme"
+                            data-x="left"
+                            data-hoffset="20"
+                            data-y="center"
+                            data-voffset="-40"
+                            data-speed="1000"
+                            data-start="600"
+                            data-easing="Back.easeInOut"
+                            data-endspeed="300">
+                            <h1>Full Screen</h1>
+                        </div>
+                      <!-- LAYER NR. 4 -->
+                        <div class="tp-caption sfr whiter tp-resizeme"
+                            data-x="left"
+                            data-hoffset="20"
+                            data-y="center"
+                            data-voffset="40"
+                            data-speed="1000"
+                            data-start="700"
+                            data-easing="Back.easeInOut"
+                            data-endspeed="300">
+                            <h2>Portfolio Images</h2>
+                        </div>
+                      <!-- LAYER NR. 5 -->
+                      <div class="tp-caption customin whiter tp-resizeme"
+                          data-x="left"
+                            data-hoffset="20"
+                          data-y="center"
+                            data-voffset="80"
+                          data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 50%;"
+                          data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                      
+                          data-start="1500"
+                          data-speed="600"
+                          data-easing="Linear.easeNone"
+                          data-endspeed="600"
+                          data-endeasing="Linear.easeNone"
+                          ><hr class="md">
+                      </div>
+                      <!-- LAYER NR. 6 -->
+                        <div class="tp-caption sfr whiter tp-resizeme"
+                            data-x="left"
+                            data-hoffset="20"
+                            data-y="center"
+                            data-voffset="120"
+                            data-speed="1000"
+                            data-start="2000"
+                            data-easing="Back.easeInOut"
+                            data-endspeed="300">
+                            <a href="gallery-masonry.html" class="btn btn-lg btn-default">See Galleries</a>
+                        </div>
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-delay="5000" data-masterspeed="600" data-slotamount="7" data-transition="fade"> 
+                      <!-- MAIN IMAGE --> 
+                      <img src="images/slide3.jpg" alt=""> 
+                      
+                      <!-- LAYER NR. 1 -->
+                      <div class="tp-caption small_light_white fade tp-resizeme"
+                          data-x="right"
+                            data-hoffset="-20"
+                          data-y="bottom" 
+                          data-speed="1000"
+                          data-start="300"
+                          data-easing="Power3.easeInOut"
+                          data-endspeed="300"
+                          style="z-index: 5">&copy; Genesis & Bee</div>
+                      <!-- LAYER NR. 2 -->
+                        <div class="tp-caption sfr darker tp-resizeme"
+                            data-x="right"
+                            data-hoffset="-15"
+                            data-y="center"
+                            data-voffset="-100"
+                            data-speed="1000"
+                            data-start="500"
+                            data-easing="Back.easeInOut"
+                            data-endspeed="300">
+                            <h4>Amazingly</h4>
+                        </div>
+                      <!-- LAYER NR. 3 -->
+                        <div class="tp-caption sfr darker tp-resizeme"
+                            data-x="right"
+                            data-hoffset="-20"
+                            data-y="center"
+                            data-voffset="-60"
+                            data-speed="1000"
+                            data-start="600"
+                            data-easing="Back.easeInOut"
+                            data-endspeed="300">
+                            <h2>Styled Galleries</h2>
+                        </div>
+                      <!-- LAYER NR. 4 -->
+                        <div class="tp-caption sfr darker tp-resizeme"
+                            data-x="right"
+                            data-hoffset="-20"
+                            data-y="center"
+                            data-voffset="20"
+                            data-speed="1000"
+                            data-start="700"
+                            data-easing="Back.easeInOut"
+                            data-endspeed="300">
+                            <p class="text-align-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Nulla convallis egestas rhoncus. Donec facilisis fermentum<br>sem, ac viverra ante luctus vel.</p>
+                        </div>
+                      <!-- LAYER NR. 5 -->
+                      <div class="tp-caption customin darker customout tp-resizeme"
+                          data-x="right"
+                            data-hoffset="-20"
+                          data-y="center"
+                            data-voffset="80"
+                          data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:100% 50%;"
+                          data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                      
+                          data-start="1500"
+                          data-speed="600"
+                          data-easing="Linear.easeNone"
+                          data-endspeed="600"
+                          data-endeasing="Linear.easeNone"
+                          ><hr class="md">
+                      </div>
+                      <!-- LAYER NR. 6 -->
+                        <div class="tp-caption sfr darker tp-resizeme"
+                            data-x="right"
+                            data-hoffset="-20"
+                            data-y="center"
+                            data-voffset="120"
+                            data-speed="1000"
+                            data-start="2000"
+                            data-easing="Back.easeInOut"
+                            data-endspeed="300">
+                            <a href="gallery-masonry.html" class="btn btn-lg btn-default">See Galleries</a>
+                        </div>
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-delay="6000" data-masterspeed="600" data-slotamount="7" data-transition="fade"> 
+                      <!-- MAIN IMAGE --> 
+                      <img src="images/slide4.jpg" alt=""> 
+                      
+                      <!-- LAYER NR. 1 -->
+                      <div class="tp-caption small_light_white fade tp-resizeme"
+                          data-x="right"
+                            data-hoffset="-20"
+                          data-y="bottom" 
+                          data-speed="1000"
+                          data-start="300"
+                          data-easing="Power3.easeInOut"
+                          data-endspeed="300"
+                          style="z-index: 5">&copy; Genesis & Bee</div>
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption with_colored_background sfl tp-resizeme"
+                            data-x="left"
+                            data-hoffset="20"
+                            data-y="100"
+                            data-speed="500"
+                            data-start="700"
+                            data-easing="Power4.easeOut"
+                            data-endspeed="300"
+                            data-endeasing="Power1.easeIn"
+                            data-captionhidden="off"
+                            style="z-index: 6">MULTIPLE HOMEPAGE STYLES
+                        </div>
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption with_white_background sfl tp-resizeme"
+                            data-x="left"
+                            data-hoffset="20"
+                            data-y="160"
+                            data-speed="500"
+                            data-start="1400"
+                            data-easing="Power4.easeOut"
+                            data-endspeed="300"
+                            data-endeasing="Power1.easeIn"
+                            data-captionhidden="off"
+                            style="z-index: 6">KENBURNS SLIDESHOW
+                        </div>
+                        <!-- LAYER NR. 4 -->
+                        <div class="tp-caption with_white_background sfl tp-resizeme"
+                            data-x="left"
+                            data-hoffset="20"
+                            data-y="220"
+                            data-speed="500"
+                            data-start="2100"
+                            data-easing="Power4.easeOut"
+                            data-endspeed="300"
+                            data-endeasing="Power1.easeIn"
+                            data-captionhidden="off"
+                            style="z-index: 6">FULL SCREEN SLIDESHOW
+                        </div>
+                        <!-- LAYER NR. 5 -->
+                        <div class="tp-caption with_white_background sfl tp-resizeme"
+                            data-x="left"
+                            data-hoffset="20"
+                            data-y="280"
+                            data-speed="500"
+                            data-start="2800"
+                            data-easing="Power4.easeOut"
+                            data-endspeed="300"
+                            data-endeasing="Power1.easeIn"
+                            data-captionhidden="off"
+                            style="z-index: 6">VIDEO BACKGROUND
+                        </div>
+                        <!-- LAYER NR. 6 -->
+                        <div class="tp-caption with_white_background sfl tp-resizeme"
+                            data-x="left"
+                            data-hoffset="20"
+                            data-y="340"
+                            data-speed="500"
+                            data-start="3500"
+                            data-easing="Power4.easeOut"
+                            data-endspeed="300"
+                            data-endeasing="Power1.easeIn"
+                            data-captionhidden="off"
+                            style="z-index: 6">GALLERIES GRID
+                        </div>
+                        <!-- LAYER NR. 7 -->
+                        <div class="tp-caption with_white_background sfl tp-resizeme"
+                            data-x="left"
+                            data-hoffset="20"
+                            data-y="400"
+                            data-speed="500"
+                            data-start="4200"
+                            data-easing="Power4.easeOut"
+                            data-endspeed="300"
+                            data-endeasing="Power1.easeIn"
+                            data-captionhidden="off"
+                            style="z-index: 6">GALLERIES MASONRY
+                        </div>
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-delay="5000" data-masterspeed="600" data-slotamount="7" data-transition="fade"> 
+                      <!-- MAIN IMAGE --> 
+                      <img src="images/slide2.jpg" alt=""> 
+                      
+                      <!-- LAYER NR. 1 -->
+                      <div class="tp-caption small_light_white fade tp-resizeme"
+                          data-x="right"
+                            data-hoffset="-20"
+                          data-y="bottom" 
+                          data-speed="1000"
+                          data-start="300"
+                          data-easing="Power3.easeInOut"
+                          data-endspeed="300"
+                          style="z-index: 5">&copy; Genesis & Bee</div>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+      </div>
 
-    @include('contents.footer')
-    
-</body>
+        @include('contents.footer')
+
+    </body>
+
+<!-- Mirrored from html.imithemes.com/cameroll/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Mar 2018 03:44:24 GMT -->
 </html>

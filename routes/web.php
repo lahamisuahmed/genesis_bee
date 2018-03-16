@@ -11,7 +11,7 @@
 |
 */
 
-Route::name('welcome')->get('/', function () {
+Route::name('home')->get('/', function () {
     return view('welcome');
 });
 Route::name('about')->get('/about', function () {
@@ -25,4 +25,10 @@ Route::name('gallery')->get('/gallery', function () {
 });
 Route::name('contact')->get('/contact', function () {
     return view('contact');
+});
+Route::name('blog')->get('/blog', function () {
+    return view('blog');
+});
+Route::name('wedding_gallery')->get('/wedding_gallery', function () {
+    return view('wedding_gallery');
 });
