@@ -1,5 +1,5 @@
 a:hover, .navigation > ul > li:hover > a, .navigation > ul > li > ul > li:hover > a, .navigation > ul > li > ul > li > ul > li:hover > a, .navigation > ul > li > ul > li > ul > li > ul > li:hover > a, .text-primary, .btn-primary .badge, .btn-link,a.list-group-item.active > .badge,.nav-pills > .active > a > .badge, p.drop-caps:first-child:first-letter, .accent-color, .post-more, ul.nav-list-primary > li a:hover, .mfp-title a, .grid-item.post .continue-reading, .grid-item.post h3 a:hover, .grid-item.post .post-footer a:hover, .meta-data a:hover, .post.format-link:hover .link-icon, .twitter_widget a, .widget.recentposts_widget .readmore, .fact-ico, blockquote p, .about-box .about-cont h4, .contact-info i.fa, .pricing-column h3, .project-info h4, .action-port .gallery-permalink {
-	color:#4fc1e9;
+	color:red;
 }
 .twitter_widget a:hover, .widget.recentposts_widget .readmore:hover{
   opacity:.9
@@ -38,7 +38,7 @@ a.list-group-item.active,
 a.list-group-item.active:hover,
 a.list-group-item.active:focus,
 .panel-primary > .panel-heading, .carousel-indicators .active, .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span, hr.sm, hr.md, hr.lg, .flex-control-nav a:hover, .flex-control-nav a.flex-active, .accordion-heading .accordion-toggle.active, .accordion-heading:hover .accordion-toggle, .accordion-heading:hover .accordion-toggle.inactive, .nav-tabs li a:hover, .nav-tabs li a:active, .nav-tabs li.active a, .page-actions-block a:hover, .page-actions-block a.inverse, .media-box .zoom span, .media-box .expand span, .secondary-header, .features.colored li .icon, .swiper .swiper-slide .permaurl, .post.format-quote a.quote-box, .about-block, .tag-cloud a, .pricing-column.highlight h3, .page-header{
-  background-color: #4fc1e9;
+  background-color: black;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -68,7 +68,7 @@ a.list-group-item.active:focus,
 	border-color:#4fc1e9;
 }
 .panel-primary > .panel-heading + .panel-collapse .panel-body, .navigation > ul > li:hover{
-	border-top-color:#4fc1e9;
+	border-top-color: black;
 }
 .panel-primary > .panel-footer + .panel-collapse .panel-body, .contact-info a{
 	border-bottom-color:#4fc1e9;

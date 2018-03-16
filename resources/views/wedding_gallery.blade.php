@@ -31,9 +31,9 @@
                 </div>
                 <div class="col-md-6 col-sm-6">
                		<ul class="gallery-actions">
-                      	<li><a href="gallery-grid-ilightbox.html" data-toggle="tooltip" data-original-title="Previous Gallery" data-placement="bottom"><i class="fa fa-angle-left"></i></a></li>
-                        	<li><a href="archive-grid.html" data-toggle="tooltip" data-original-title="All Galleries" data-placement="bottom"><i class="fa fa-th"></i></a></li>
-                        	<li><a href="gallery-grid-prettyphoto.html" data-toggle="tooltip" data-original-title="Next Gallery" data-placement="bottom"><i class="fa fa-angle-right"></i></a></li>
+                      	<!-- <li><a href="gallery-grid-ilightbox.html" data-toggle="tooltip" data-original-title="Previous Gallery" data-placement="bottom"><i class="fa fa-angle-left"></i></a></li> -->
+                    	<li><a href="{{route('gallery')}}" data-toggle="tooltip" data-original-title="All Galleries" data-placement="bottom"><i class="fa fa-th"></i></a></li>
+                    	<!-- <li><a href="gallery-grid-prettyphoto.html" data-toggle="tooltip" data-original-title="Next Gallery" data-placement="bottom"><i class="fa fa-angle-right"></i></a></li> -->
                    	</ul>
               		</div>
               </div>

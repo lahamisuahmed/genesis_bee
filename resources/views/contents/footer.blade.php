@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6 copyrights-col-left">
-                    &copy; 2018 Genesis & Bee Photography. All Rights Reserved
+                    &copy; 2018 Genesis & Bee Photography.
                 </div>  
                 <div class="col-md-6 col-sm-6 copyrights-col-right">
                         <ul class="social-icons">

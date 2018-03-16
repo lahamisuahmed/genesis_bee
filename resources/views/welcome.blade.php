@@ -18,7 +18,7 @@
                     <!-- SLIDE  -->
                     <li data-delay="5000" data-masterspeed="600" data-slotamount="7" data-transition="fade"> 
                       <!-- MAIN IMAGE --> 
-                      <img src="images/slide1.jpg" alt=""> 
+                      <img src="images/nslide1.jpg" alt=""> 
                       
                       <!-- LAYER NR. 1 -->
                       <div class="tp-caption small_light_white fade tp-resizeme"
@@ -98,7 +98,7 @@
                     <!-- SLIDE  -->
                     <li data-delay="5000" data-masterspeed="600" data-slotamount="7" data-transition="fade"> 
                       <!-- MAIN IMAGE --> 
-                      <img src="images/slide3.jpg" alt=""> 
+                      <img src="images/nslide2.jpg" alt=""> 
                       
                       <!-- LAYER NR. 1 -->
                       <div class="tp-caption small_light_white fade tp-resizeme"
@@ -178,7 +178,7 @@
                     <!-- SLIDE  -->
                     <li data-delay="6000" data-masterspeed="600" data-slotamount="7" data-transition="fade"> 
                       <!-- MAIN IMAGE --> 
-                      <img src="images/slide4.jpg" alt=""> 
+                      <img src="images/nslide4.jpg" alt=""> 
                       
                       <!-- LAYER NR. 1 -->
                       <div class="tp-caption small_light_white fade tp-resizeme"
@@ -272,7 +272,7 @@
                     <!-- SLIDE  -->
                     <li data-delay="5000" data-masterspeed="600" data-slotamount="7" data-transition="fade"> 
                       <!-- MAIN IMAGE --> 
-                      <img src="images/slide2.jpg" alt=""> 
+                      <img src="images/nslide4.jpg" alt=""> 
                       
                       <!-- LAYER NR. 1 -->
                       <div class="tp-caption small_light_white fade tp-resizeme"

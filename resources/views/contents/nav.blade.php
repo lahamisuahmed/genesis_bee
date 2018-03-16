@@ -4,7 +4,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-4 col-sm-4 col-xs-6">
-                <h1 class="logo"> <a href="index.html"><img src="images/logo.png" alt="Logo"></a> </h1>
+                <h1 class="logo"> <a href="{{route('home')}}"><img src="images/logo.png" alt="Logo"></a> </h1>
               </div>
               <div class="col-md-8 col-sm-8 col-xs-6 main-menu-wrapper">
                 <nav class="navigation">
