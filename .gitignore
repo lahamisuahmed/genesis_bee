@@ -10,10 +10,4 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 .env
-/public/images/nslide1.jpg
-/public/images/nslide2.jpg
-/public/images/nslide3.jpg
-/public/images/nslide4.jpg
-/public/images/nslide5.jpg
-/public/images/nslide5 (3).jpg
-/public/images/nslide6.jpg
+/public/pimages
