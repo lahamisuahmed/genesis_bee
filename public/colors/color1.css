@@ -74,3 +74,12 @@ a.list-group-item.active:focus,
 	border-bottom-color:#4fc1e9;
 }
 /* Color Scheme Specific Classes */
+.contact-info a {
+    border-bottom-color: black;
+}
+body{
+	background-color: #f3ebec;
+}
+.top-header{
+	background-color: #f3ebec;
+}

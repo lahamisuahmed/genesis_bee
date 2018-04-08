@@ -18,7 +18,7 @@
             	<div class="row">
                 <div class="col-md-6 col-sm-6">
                     <ul class="gallery-feedbacks">
-                    <li><a href="#"><i class="fa fa-heart"></i> 45</a></li>
+                    <!-- <li><a href="#"><i class="fa fa-heart"></i> 45</a></li>
                     <li><a href="#" class="description-opener closed"><i class="fa fa-info"></i></a></li>
                     <li class="share-expander"><a href="#"><i class="fa fa-share-alt"></i></a>
                       <ul class="share-buttons">
@@ -26,7 +26,7 @@
                           <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
                           <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                       </ul>
-                    </li>
+                    </li> -->
                     </ul>
                 </div>
                 <div class="col-md-6 col-sm-6">
@@ -39,7 +39,7 @@
               </div>
             </div>
         </div>
-        <!-- GALLERY DESCRIPTION -->
+        {{-- <!-- GALLERY DESCRIPTION -->
         <div class="gallery-description">
         	<div class="container">
             	<div class="row">
@@ -52,78 +52,34 @@
                  	</div>
               	</div>
            </div>
-        </div>
+        </div> --}}
         <ul class="grid-holder col2 ilightbox-gallery">
             <li class="grid-item format-image">
-                <a href="images/nslide1.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
+                <a href="images/nslide1.jpg" class="media-box" data-caption="genesis and bee photography">
                     <img src="images/nslide1.jpg" alt="">
                 </a>
             </li>
             <li class="grid-item format-image">
-                <a href="images/nslide2.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
+                <a href="images/nslide2.jpg" class="media-box" data-caption="genesis and bee photography">
                     <img src="images/nslide2.jpg" alt="">
                 </a>
             </li>
             <li class="grid-item format-image">
-                <a href="images/nslide3.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
+                <a href="images/nslide3.jpg" class="media-box" data-caption="genesis and bee photography">
                     <img src="images/nslide3.jpg" alt="">
                 </a>
             </li>
             <li class="grid-item format-image">
-                <a href="images/nslide4.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
+                <a href="images/nslide4.jpg" class="media-box" data-caption="genesis and bee photography">
                     <img src="images/nslide4.jpg" alt="">
                 </a>
             </li>
             <li class="grid-item format-image">
-                <a href="images/nslide5.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
+                <a href="images/nslide5.jpg" class="media-box" data-caption="genesis and bee photography">
                     <img src="images/nslide5.jpg" alt="">
                 </a>
             </li>
-            <li class="grid-item format-image">
-                <a href="images/nslide6.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/nslide6.jpg" alt="">
-                </a>
-            </li>
-            <li class="grid-item format-image">
-                <a href="images/nslide7.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/nslide7.jpg" alt="">
-                </a>
-            </li>
-            <li class="grid-item format-image">
-                <a href="images/nslide1.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/nslide1.jpg" alt="">
-                </a>
-            </li>
-            <li class="grid-item format-image">
-                <a href="images/nslide2.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/nslide2.jpg" alt="">
-                </a>
-            </li>
-            <li class="grid-item format-image">
-                <a href="images/nslide3.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/nslide3.jpg" alt="">
-                </a>
-            </li>
-            <li class="grid-item format-image">
-                <a href="images/nslide4.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/nslide4.jpg" alt="">
-                </a>
-            </li>
-            <li class="grid-item format-image">
-                <a href="images/nslide5.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/nslide5.jpg" alt="">
-                </a>
-            </li>
-            <li class="grid-item format-image">
-                <a href="images/nslide6.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/nslide6.jpg" alt="">
-                </a>
-            </li>
-            <li class="grid-item format-image">
-                <a href="images/nslide7.jpg" class="media-box" data-caption="Use a caption to give your visitors some more information">
-                    <img src="images/nslide7.jpg" alt="">
-                </a>
-            </li>
+            
         </ul>
     </div>
   </div>
@@ -131,5 +87,4 @@
 
 </body>
 
-<!-- Mirrored from html.imithemes.com/cameroll/gallery-grid-ilightbox.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Mar 2018 03:50:57 GMT -->
 </html>

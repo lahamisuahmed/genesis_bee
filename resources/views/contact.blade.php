@@ -47,7 +47,10 @@
                             <div class="clearfix"></div>
                             <div id="message"></div>
                         </div>
-                        <!-- CONTACT INFO -->
+                        
+                    </div>
+                    <div class="row">
+                      <!-- CONTACT INFO -->
                             <section class="contact-info">
                               <div class="col-md-4">
                                 <h3><i class="fa fa-map-marker"></i> Address</h3>
@@ -68,7 +71,7 @@
                                 <p><i class="fa fa-skype"></i> @Cameroll</p>
                               </div>
                             </section>
-                        </div>
+                    </div>
                     </div>
                     </div>
                 </div>

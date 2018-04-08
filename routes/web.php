@@ -10,6 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\Post;
 
 Route::name('home')->get('/', function () {
     return view('welcome');
@@ -31,4 +32,7 @@ Route::name('blog')->get('/blog', function () {
 });
 Route::name('wedding_gallery')->get('/wedding_gallery', function () {
     return view('wedding_gallery');
+});
+Route::get('/posts/{post}', function(Post $post){
+	return view('posts', compact('post'));
 });

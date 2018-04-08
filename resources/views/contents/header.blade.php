@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Generis & Bee</title>
     <meta name="description" content="">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('images/gb.png')}}">
     <meta name="keywords" content="">
     <meta name="author" content="">
     <!-- Mobile Specific Metas

@@ -595,7 +595,7 @@ img.alignleft:after {
 	height:22px;
 	text-align:center;
 	line-height:25px;
-	color:#222;
+	color: black;
 	display:block;
 	text-decoration:none;
 	border-width:1px;
@@ -603,16 +603,16 @@ img.alignleft:after {
 	border-color:transparent;
 }
 .social-icons li.facebook a:hover{
-	border-color:#3B5998;
-	color:#3B5998;
+	border-color: red;
+	color: red;
 }
 .social-icons li.twitter a:hover{
-	border-color:#00ACED;
-	color:#00ACED;
+	border-color:red;
+	color:red;
 }
 .social-icons li.behance a:hover{
-	border-color:#1769FF;
-	color:#1769FF;
+	border-color:red;
+	color: red;
 }
 .social-icons li.delicious a:hover{
 	border-color:#3274D1;
@@ -647,8 +647,8 @@ img.alignleft:after {
 	color:#D14836;
 }
 .social-icons li.instagram a:hover{
-	border-color:#3F729B;
-	color:#3F729B;
+	border-color:red;
+	color:red;
 }
 .social-icons li.jsfiddle a:hover{
 	border-color:#4679A4;
@@ -1135,7 +1135,7 @@ body.classic{
 	background:#fff;
 }
 body.gallery{
-	background:url(../images/ajax-loader-dark.gif) no-repeat center center fixed #040204;
+	/*background:url(../images/ajax-loader-dark.gif) no-repeat center center fixed #040204;*/
 }
 body.boxed{
 	background:#fff;
@@ -1618,7 +1618,7 @@ body.gallery .content{
 	font-size:12px;
 	line-height:40px;
 	color:#666;
-	background:rgba(255,255,255,.9);
+	/*background:rgba(255,255,255,.9);*/
 	-webkit-box-shadow:0 -1px 2px rgba(0,0,0,.1);
 	box-shadow:0 -1px 2px rgba(0,0,0,.1);
 	bottom:-40px;
@@ -1665,7 +1665,7 @@ body.fs .site-footer{
 .page-actions-block{
 	padding:20px 0;
 	font-size:13px;
-	background-color:#f5f7fa;
+	/*background-color:#f5f7fa;*/
 	position:relative;
 }
 body.boxed .page-actions-block{
@@ -2010,7 +2010,6 @@ body.boxed .page-actions-block{
 	text-align:center;
 }
 .page-header h1{
-	color:#fff;
 	margin-bottom:0;
 }
 
@@ -3557,4 +3556,15 @@ span.progress-bar-tooltip:after {
 }
 /* For Retina DEevices */
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/*
+	generis and bee
+
+ */
+.site-footer a{
+	color:#666;
+}
+.site-footer a:hover{
+	color: red;
 }

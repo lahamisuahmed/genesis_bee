@@ -21,14 +21,19 @@
                     <div class="static-pages clearfix">
                             <h2>About Us</h2>
                             <hr class="md">
-                            <span class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam. Aliquam pellentesque pellentesque turpis, ut bibendum sapien sollicitudin nec.</p>
+                            <span class="sub-title">Genesis and Bee Photography</span>
+                            <p class="lead">Genesis and Bee Photography was founded by Baki Malik and Abdullahi.
+                              We offer world class shots.
+                            </p>
                             <div class="row">
                             <div class="col-md-6">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam. Aliquam pellentesque pellentesque turpis, ut bibendum sapien sollicitudin nec. Pellentesque posuere ornare placerat. Suspendisse potenti. Quisque massa tortor, tristique non tristique at, luctus sed massa. Donec libero eros, mollis ac fringilla eu, vestibulum sed lorem. Aenean aliquet tempor purus, sit amet ultricies neque bibendum venenatis. Suspendisse pulvinar massa sed odio semper mattis. Pellentesque vel nunc arcu, id rhoncus magna. Maecenas quis tempus ligula. Nunc ac tortor diam. Phasellus tincidunt rutrum diam, eget elementum lorem sagittis eget.</p>
+                                    <p>founded in Abuja in the year 2017 it is becoming the best to go for excellent shots 
+                                    your satisfaction is what keeps us moving.</p>
                                 </div>
                             <div class="col-md-6">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam. Aliquam pellentesque pellentesque turpis, ut bibendum sapien sollicitudin nec. Pellentesque posuere ornare placerat. Suspendisse potenti. Quisque massa tortor, tristique non tristique at, luctus sed massa. Donec libero eros, mollis ac fringilla eu, vestibulum sed lorem. Aenean aliquet tempor purus, sit amet ultricies neque bibendum venenatis. Suspendisse pulvinar massa sed odio semper mattis. Pellentesque vel nunc arcu, id rhoncus magna. Maecenas quis tempus ligula. Nunc ac tortor diam. Phasellus tincidunt rutrum diam, eget elementum lorem sagittis eget.</p>
+                                    <p>
+                                      you can check our contact page for more information on how to get to reach us 
+                                    </p>
                                 </div>
                         </div>
                     </div>
@@ -42,11 +47,11 @@
                                 <img src=" {{asset('images/pic29.jpg')}}" alt="">
                             </div>
                         <div class="about-image">
-                                <img src=" {{asset('images/about1.jpg')}}" alt="">
+                                <img src=" {{asset('images/abdullahi.jpg')}}" alt="">
                             </div>
                             <div class="about-cont">
-                                <h4>Harry Evans</h4>
-                                <p>Aenean aliquet tempor purus, sit amet ultricies neque bibendum venenatis.</p>
+                                <h4>Baki</h4>
+                                <p>CEO, founder</p>
                             <ul class="social-icons inversed">
                                 <li class="facebook"><a href="#"><i class="ico-social facebook"></i></a></li>
                                 <li class="twitter"><a href="#"><i class="ico-social twitter"></i></a></li>
@@ -59,11 +64,11 @@
                                 <img src=" {{asset('images/pic32.jpg')}}" alt="">
                             </div>
                         <div class="about-image">
-                                <img src=" {{asset('images/about2.jpg')}}" alt="">
+                                <img src=" {{asset('images/abdullahi.jpg')}}" alt="">
                             </div>
                             <div class="about-cont">
-                                <h4>Samantha Beck</h4>
-                                <p>Aenean aliquet tempor purus, sit amet ultricies neque bibendum venenatis.</p>
+                                <h4>Abdullahi</h4>
+                                <p>CEO, founder</p>
                             <ul class="social-icons inversed">
                                 <li class="facebook"><a href="#"><i class="ico-social facebook"></i></a></li>
                                 <li class="twitter"><a href="#"><i class="ico-social twitter"></i></a></li>

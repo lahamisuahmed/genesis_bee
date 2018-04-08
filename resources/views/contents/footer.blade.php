@@ -34,5 +34,5 @@
     <script type="text/javascript" src="{{ asset('vendor/ilightbox/js/ilightbox.packed.js')}}"></script><!-- iLightbox -->
     <script>
         // iLightbox Call
-        $('.ilightbox-gallery a').iLightBox({skin:'metro-white'});
+        $('.ilightbox-gallery a').iLightBox({skin:'metro-black'});
     </script>
