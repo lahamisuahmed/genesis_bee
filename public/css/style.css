@@ -4,6 +4,7 @@
 @import url("animations.css");
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic);
+
 /*  CSS definations for Cameroll  */
 
 /*-------------------------------------------------------------------------------------------*/
@@ -907,7 +908,7 @@ img.alignleft:after {
 	left:0;
 	top:0;
 	margin:0;
-	background-color:rgba(255,255,255,.9);
+	background-color:rgba(119, 102, 102, 0.9);
 	opacity:0;
 	-webkit-transition:all 0.3s ease 0.1s;
 	-moz-transition:all 0.3s ease 0.1s;
@@ -2345,23 +2346,12 @@ body.boxed .page-actions-block{
 	padding:50px 25px 25px;
 	text-align:center
 }
-#googleMap iframe {
-   width: 100%;
-}
-#googleMap {
-   height: 100%;
-}
-#googleMap img {
-	max-width: none;
-}
+
 .contact-box{
 	padding-right:30px;
 	padding-top:110px;
 	height:100%;
 	overflow:auto;
-}
-.contact-form{
-	margin-bottom:60px;
 }
 .contact-info a{
 	text-decoration:none;
@@ -3290,7 +3280,9 @@ span.progress-bar-tooltip:after {
 .touch .body{
 	position:static;
 }
-
+.contact-box{
+	margin-bottom: 10%;
+}
 /*-------------------------------------------------------------------------------------------*/
 /* Responsive Classes
 /*-------------------------------------------------------------------------------------------*/
@@ -3370,51 +3362,16 @@ span.progress-bar-tooltip:after {
 	.right-sidebar{
 		margin-top:40px;
 	}
-	.pricing-column .features{
-		margin-bottom:0;
-	}
-	.pricing-column.highlight {
-		margin: 0;
-  	}
-	.pricing-table > div:third-child .pricing-column-content, .pricing-table > div:nth-child(2n+1) h3 {
-		border-left: 1px solid #eeeeee!important;
-	}
-  	.pricing-column ul li:first-child {
-	  	border-top: 1px solid #eeeeee;
-  	}
-  	.pricing-column ul li:nth-child(2n+1) {
-	  	background-color: #f8f8f8;
-  	}
+	
   	.toggle .pricing-column h3 {
 	  	font-size: 26px!important;
   	}
-  	.pricing-column.highlight .btn{
-	  	margin-bottom:0;
-  	}
-	.pricing-table.six-cols > div {
-		width: 50%;
-	}
-	.pricing-table.five-cols > div {
-		width: 50%;
-	}
-	.pricing-table.four-cols > div {
-		width: 50%;
-	}
-	.pricing-table.three-cols > div {
-		width: 50%;
-	}
-	.pricing-table.two-cols > div {
-		width: 50%;
-	}
 	.grid-holder .grid-item{
 		width:33.3333%;
 	}
 	.site-footer{
 		height:auto;
 		text-align:center;
-	}
-	#googleMap{
-		height:250px!important;
 	}
 	.post-media{
 		margin-bottom:20px;
@@ -3428,13 +3385,6 @@ span.progress-bar-tooltip:after {
 		width:45%;
 		margin-right:5%;
 		float:left;
-	}
-	.contact-info{
-		width:50%;
-		float:left;
-	}
-	.contact-info .col-md-4{
-		margin-bottom:30px;
 	}
 }
 @media only screen and (max-width: 767px) {
@@ -3460,26 +3410,6 @@ span.progress-bar-tooltip:after {
 	.site-header .menu-toggle{
 		margin-right:20px;
 	}
-	.pricing-table.six-cols > div {
-		margin:0 auto 30px;
-		width: 100%;
-	}
-	.pricing-table.five-cols > div {
-		margin:0 auto 30px;
-		width: 100%;
-	}
-	.pricing-table.four-cols > div {
-		margin:0 auto 30px;
-		width: 100%;
-	}
-	.pricing-table.three-cols > div {
-		margin:0 auto 30px;
-		width: 100%;
-	}
-	.pricing-table.two-cols > div {
-		margin:0 auto 30px;
-		width: 100%;
-	}
 	.grid-holder .grid-item{
 		width:100%;
 		margin-left:0;
@@ -3491,9 +3421,6 @@ span.progress-bar-tooltip:after {
 	}
 	.site-footer .social-icons{
 		float:none;
-	}
-	#googleMap{
-		height:200px!important;
 	}
 	.post-media{
 		margin-bottom:20px;
@@ -3535,15 +3462,17 @@ span.progress-bar-tooltip:after {
 	.touch body.contact .body, .touch body.contact body{
 		overflow-y:scroll!important;
 	}
-	.contact-box{
-		height:auto!important;
-	}
+
 	.contactForm{
 		width:100%;
 		margin-right:0;
 	}
 	.contact-info{
 		width:100%;
+	}
+	.contact-box{
+		margin-top: 50px;
+		margin-bottom: 5px;
 	}
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -3553,6 +3482,7 @@ span.progress-bar-tooltip:after {
 	.landing-content .btn-default{
 		padding:10px 40px;
 	}
+	
 }
 /* For Retina DEevices */
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {

@@ -28,3 +28,6 @@
 
 </body>
 </html>
+
+instafeed.js
+tutvid--instafeed into your website

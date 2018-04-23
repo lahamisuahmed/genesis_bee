@@ -55,28 +55,28 @@
         </div> --}}
         <ul class="grid-holder col2 ilightbox-gallery">
             <li class="grid-item format-image">
-                <a href="images/nslide1.jpg" class="media-box" data-caption="genesis and bee photography">
-                    <img src="images/nslide1.jpg" alt="">
+                <a href="images/nslide1.jpg" class="media-box img-responsive" data-caption="Generis and Bee Photography">
+                    <img src="images/nslide1.jpg" class="img-responsive" alt="">
                 </a>
             </li>
             <li class="grid-item format-image">
-                <a href="images/nslide2.jpg" class="media-box" data-caption="genesis and bee photography">
-                    <img src="images/nslide2.jpg" alt="">
+                <a href="images/nslide2.jpg" class="media-box img-responsive" data-caption="Generis and Bee Photography">
+                    <img src="images/nslide2.jpg" class="img-responsive" alt="">
                 </a>
             </li>
             <li class="grid-item format-image">
-                <a href="images/nslide3.jpg" class="media-box" data-caption="genesis and bee photography">
-                    <img src="images/nslide3.jpg" alt="">
+                <a href="images/nslide3.jpg" class="media-box img-responsive" data-caption="Generis and Bee Photography">
+                    <img src="images/nslide3.jpg" class="img-responsive" alt="">
                 </a>
             </li>
             <li class="grid-item format-image">
-                <a href="images/nslide4.jpg" class="media-box" data-caption="genesis and bee photography">
-                    <img src="images/nslide4.jpg" alt="">
+                <a href="images/nslide4.jpg" class="media-box img-responsive" data-caption="Generis and Bee Photography">
+                    <img src="images/nslide4.jpg" class="img-responsive" alt="">
                 </a>
             </li>
             <li class="grid-item format-image">
-                <a href="images/nslide5.jpg" class="media-box" data-caption="genesis and bee photography">
-                    <img src="images/nslide5.jpg" alt="">
+                <a href="images/nslide5.jpg" class="media-box img-responsive" data-caption="Generis and Bee Photography">
+                    <img src="images/nslide5.jpg" class="img-responsive" alt="">
                 </a>
             </li>
             

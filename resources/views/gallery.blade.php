@@ -15,13 +15,13 @@
     <div id="content" class="content full">
     		<ul class="grid-holder col2">
             	<li class="grid-item">
-                	<a href="wedding_gallery">
-                    	<img src="{{ asset('images/nslide2.jpg') }}" alt="">
+                	<a href="photography">
+                    	<img src="{{ asset('images/slide5.jpg') }}" class="img-responsive" alt="">
                     	<span class="grid-hover">
                         	<span class="grid-hover-central">
                             <span class="grid-hover-inner">
                             		 
-                            		<strong>Weddings</strong>
+                            		<strong>Photography</strong>
                             		
                          		</span>
                         	</span>
@@ -32,14 +32,15 @@
                      	</span>
                  	</a>
               	</li>
+
                     <li class="grid-item">
-                        <a href="wedding_gallery">
-                            <img src="{{ asset('images/nslide1.jpg') }}" alt="">
+                        <a href="photography">
+                            <img src="{{ asset('images/nslide6.jpg') }}" class="img-responsive" alt="">
                             <span class="grid-hover">
                                 <span class="grid-hover-central">
                                 <span class="grid-hover-inner">
                                          
-                                        <strong>Engagements</strong>
+                                        <strong>Videography</strong>
                                         
                                     </span>
                                 </span>
@@ -50,62 +51,7 @@
                             </span>
                         </a>
                     </li>
-            	<li class="grid-item">
-                	<a href="wedding_gallery">
-                    	<img src="{{ asset('images/nslide7.jpg') }}" alt="">
-                    	<span class="grid-hover">
-                        	<span class="grid-hover-central">
-                            <span class="grid-hover-inner">
-                            		 
-                            		<strong>Birthdays</strong>
-                            		
-                         		</span>
-                        	</span>
-                     	</span>
-                     	<span class="action-port">
-                        	<span class="gallery-permalink pull-right">view gallery <i class="fa fa-long-arrow-right"></i></span>
-                        	
-                     	</span>
-                 	</a>
-              	</li>
-            	<li class="grid-item">
-                	<a href="wedding_gallery">
-                    	<img src="{{ asset('images/nslide6.jpg') }}" alt="">
-                    	<span class="grid-hover">
-                        	<span class="grid-hover-central">
-                            <span class="grid-hover-inner">
-                            		 
-                            		<strong>Picnics</strong>
-                            		
-                         		</span>
-                        	</span>
-                     	</span>
-                     	<span class="action-port">
-                        	<span class="gallery-permalink pull-right">view gallery <i class="fa fa-long-arrow-right"></i></span>
-                        	
-                     	</span>
-                 	</a>
-              	</li>
-            	
-            	<li class="grid-item">
-                	<a href="wedding_gallery">
-                    	<img src="{{ asset('images/nslide5.jpg') }}" alt="">
-                    	<span class="grid-hover">
-                        	<span class="grid-hover-central">
-                            <span class="grid-hover-inner">
-                            		 
-                            		<strong>Trips</strong>
-                            		
-                         		</span>
-                        	</span>
-                     	</span>
-                     	<span class="action-port">
-                        	<span class="gallery-permalink pull-right">view gallery <i class="fa fa-long-arrow-right"></i></span>
-                        	
-                     	</span>
-                 	</a>
-              	</li>
-            	
+                    
           	</ul>
     </div>
   </div>

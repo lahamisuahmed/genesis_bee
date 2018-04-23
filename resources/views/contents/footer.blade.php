@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6 copyrights-col-left">
-                    &copy; 2018 Genesis & Bee Photography.
+                    &copy; 2018 Generis & Bee Photography.
                 </div>  
                 <div class="col-md-6 col-sm-6 copyrights-col-right">
                         <ul class="social-icons">
@@ -27,8 +27,6 @@
     <script src=" {{ asset('vendor/rs-plugin/js/jquery.themepunch.plugins.min.js')}}"></script> 
     <script src=" {{ asset('vendor/rs-plugin/js/jquery.themepunch.revolution.min.js')}}"></script> 
     <script src=" {{ asset('js/revolution-slider-init.js')}}"></script> <!-- Revolutions Slider Intialization --> 
-    <script src=" {{ asset('style-switcher/js/jquery_cookie.js')}}"></script> 
-    <script src=" {{ asset('style-switcher/js/script.js')}}"></script> 
     <script type="text/javascript" src="{{ asset('vendor/ilightbox/js/jquery.requestAnimationFrame.js')}}"></script><!-- iLightbox -->
     <script type="text/javascript" src="{{ asset('vendor/ilightbox/js/jquery.mousewheel.js')}}"></script><!-- iLightbox -->
     <script type="text/javascript" src="{{ asset('vendor/ilightbox/js/ilightbox.packed.js')}}"></script><!-- iLightbox -->

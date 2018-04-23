@@ -24,6 +24,18 @@ Route::name('event')->get('/event', function () {
 Route::name('gallery')->get('/gallery', function () {
     return view('gallery');
 });
+Route::name('portfolio')->get('/portfolio', function () {
+    return view('portfolio');
+});
+Route::name('photography')->get('/photography', function () {
+    return view('photography');
+});
+Route::name('event')->get('/event', function () {
+    return view('event');
+});
+Route::name('lifestyle')->get('/lifestyle', function () {
+    return view('lifestyle');
+});
 Route::name('contact')->get('/contact', function () {
     return view('contact');
 });

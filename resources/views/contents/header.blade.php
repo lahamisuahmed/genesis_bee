@@ -26,8 +26,8 @@
     <!--[if gte IE 9]><style type="text/css">body:after{filter: none;}</style><![endif]-->
     <!-- Color Style -->
     <link class="alt" href=" {{ asset('colors/color1.css')}}" rel="stylesheet" type="text/css">
-    <link href=" {{ asset('style-switcher/css/style-switcher.css')}}" rel="stylesheet" type="text/css">
     <!-- SCRIPTS
       ================================================== -->
     <script src=" {{ asset('js/modernizr.js')}}"></script><!-- MODERNIZER -->
+
 </head>

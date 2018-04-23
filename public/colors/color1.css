@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Rajdhani-Light';
+  src: url('../fonts/Rajdhani-Light.ttf') format('truetype');
+
+}
+
 a:hover, .navigation > ul > li:hover > a, .navigation > ul > li > ul > li:hover > a, .navigation > ul > li > ul > li > ul > li:hover > a, .navigation > ul > li > ul > li > ul > li > ul > li:hover > a, .text-primary, .btn-primary .badge, .btn-link,a.list-group-item.active > .badge,.nav-pills > .active > a > .badge, p.drop-caps:first-child:first-letter, .accent-color, .post-more, ul.nav-list-primary > li a:hover, .mfp-title a, .grid-item.post .continue-reading, .grid-item.post h3 a:hover, .grid-item.post .post-footer a:hover, .meta-data a:hover, .post.format-link:hover .link-icon, .twitter_widget a, .widget.recentposts_widget .readmore, .fact-ico, blockquote p, .about-box .about-cont h4, .contact-info i.fa, .pricing-column h3, .project-info h4, .action-port .gallery-permalink {
 	color:red;
 }
@@ -45,8 +51,8 @@ a.list-group-item.active:focus,
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary, .next-prev-nav a:hover, .tag-cloud a:hover{
-  background: #4fc1e9;
-  opacity:.9
+  background: red;
+  opacity:.5
 }
 .nav .open > a,
 .nav .open > a:hover,
@@ -79,7 +85,20 @@ a.list-group-item.active:focus,
 }
 body{
 	background-color: #f3ebec;
+	font-family: Rajdhani-Light;
 }
 .top-header{
-	background-color: #f3ebec;
+	background-color: #72696b;
+}
+.contact-info h3{
+	font-family: Rajdhani-Light;
+}
+#instafeed img{
+	padding: 5px;
+	opacity: 0.8;
+	filter:alpha (opacity=80);
+}
+#instafeed img:hover {
+	opacity:1;
+	filter:alpha (opacity=100);
 }
